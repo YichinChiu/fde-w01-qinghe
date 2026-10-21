@@ -1,0 +1,92 @@
+{
+  "contract_version": "w01-0.2.0",
+  "product_version": "0.2.0-w1",
+  "model_name": "gemini-3.8-flash",
+  "protocol": "chat_completions",
+  "prompt_sha256": "051286bc27083b1f3cd9201ebcd09030830ec3a06401197a0adaa0f1003fcddd",
+  "dataset_version": "sample-1",
+  "runs": [
+    {
+      "case_id": "clarification",
+      "run_id": "artifacts/w01/evidence/clarification.json",
+      "expected_status": "clarification",
+      "actual_status": "clarification",
+      "passed": true,
+      "trace_id": "48e1cc385aa9b17aa1f9c93efc10fecf",
+      "duration_seconds": 12.344
+    },
+    {
+      "case_id": "refund_explanation",
+      "run_id": "artifacts/w01/evidence/refund_explanation.json",
+      "expected_status": "completed",
+      "actual_status": "completed",
+      "passed": true,
+      "trace_id": "1564441725a397fe69b95d28b0057c33",
+      "duration_seconds": 25.36
+    },
+    {
+      "case_id": "analysis",
+      "run_id": "artifacts/w01/evidence/analysis.json",
+      "expected_status": "completed",
+      "actual_status": "completed",
+      "passed": true,
+      "trace_id": "1564441725a397fe69b95d28b0057c33",
+      "duration_seconds": 25.375
+    },
+    {
+      "case_id": "missing_coverage",
+      "run_id": "artifacts/w01/evidence/missing_coverage.json",
+      "expected_status": "incomplete",
+      "actual_status": "incomplete",
+      "passed": true,
+      "trace_id": "79c92e72e8b9de0adb8cd6097ee4bd89",
+      "duration_seconds": 16.063
+    },
+    {
+      "case_id": "readonly",
+      "run_id": "artifacts/w01/evidence/readonly.json",
+      "expected_status": "refused",
+      "actual_status": "refused",
+      "passed": true,
+      "trace_id": "861051d9559ae4630ffa44b49614b970",
+      "duration_seconds": 8.969
+    },
+    {
+      "case_id": "http_action",
+      "run_id": "artifacts/w01/evidence/http_action.json",
+      "expected_status": "completed",
+      "actual_status": "completed",
+      "passed": true,
+      "trace_id": "665eda08bc494a80138ac4ab08186db7",
+      "duration_seconds": 19.984
+    },
+    {
+      "case_id": "date_text",
+      "run_id": "artifacts/w01/evidence/date_text.json",
+      "expected_status": "completed",
+      "actual_status": "completed",
+      "passed": true,
+      "trace_id": "958db2f998fff505bcfd6dbe2f52b0d4",
+      "duration_seconds": 36.312
+    },
+    {
+      "case_id": "date_button",
+      "run_id": "artifacts/w01/evidence/date_button.json",
+      "expected_status": "completed",
+      "actual_status": "completed",
+      "passed": true,
+      "trace_id": "5803f270deff0a07f90e2d26b7ab9ddc",
+      "duration_seconds": 32.047
+    },
+    {
+      "case_id": "reject_change",
+      "run_id": "artifacts/w01/evidence/reject_change.json",
+      "expected_status": "rejected",
+      "actual_status": "rejected",
+      "passed": true,
+      "trace_id": "ab22ef4f11cad95fc4c36857456474ab",
+      "duration_seconds": 6.657
+    }
+  ],
+  "failures": []
+}

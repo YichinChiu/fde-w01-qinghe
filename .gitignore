@@ -1,0 +1,16 @@
+# 虚拟环境与缓存
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.promptfoo/
+node_modules/
+
+# 本机运行状态（数据库、运行记录），可由 tools/product.py 重新生成
+.runtime/
+
+# 密钥与本机配置
+.env
+.env.*
+cmd.txt
+*.key

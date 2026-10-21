@@ -1,0 +1,128 @@
+{
+  "product_version": "0.2.0-w1",
+  "runtime_revision": "w01-runtime-20260922",
+  "session_id": "2230812a-5ded-4ed2-ad36-5ae6e1255284",
+  "model_mode": "live",
+  "model_name": "gemini-3.8-flash",
+  "prompt_sha256": "051286bc27083b1f3cd9201ebcd09030830ec3a06401197a0adaa0f1003fcddd",
+  "status": "incomplete",
+  "result": {
+    "status": "incomplete",
+    "summary": "S03 的所选比较时段缺少数据，暂时无法形成下降会员名单。缺失数据不能按零消费处理。",
+    "recommendations": [],
+    "evidence_ids": [
+      "CMP-8eb496ca71fc574d"
+    ],
+    "limitations": [
+      "门店 S03 在 2026-08-01 至 2026-09-01 期间无数据覆盖，未覆盖门店消费未知，不能计为零消费，亦无法计算老会员消费下降幅度。"
+    ]
+  },
+  "observations": [
+    {
+      "name": "describe_business",
+      "result": {
+        "status": "ok",
+        "semantics": {
+          "version": "sample-semantics-1",
+          "company": "松果生活（独立虚构样例）",
+          "objects": [
+            "Member",
+            "Order",
+            "Store",
+            "Tag"
+          ],
+          "links": [
+            "Member belongs_to Store",
+            "Order belongs_to Member"
+          ],
+          "spend": {
+            "id": "sample.net_spend.v1",
+            "aggregation": "paid_minus_refunded_cents",
+            "unit": "CNY cents",
+            "include": "status=paid",
+            "window": "start inclusive, end exclusive"
+          },
+          "old_member": {
+            "basis": "joined_before_baseline"
+          },
+          "decline": {
+            "minimum_pct": 20,
+            "formula": "(baseline-current)/baseline*100",
+            "zero_baseline": "undefined; excluded from decline cohort"
+          },
+          "recommendation_constraints": [
+            "只提出可供运营人员审核的建议，不承诺召回效果",
+            "未获得确认不执行标签动作",
+            "不声称已经发券",
+            "引用工具 evidence_id，金额只能来自工具结果"
+          ]
+        },
+        "dataset": {
+          "dataset_version": "sample-1",
+          "business_reference_date": "2026-09-01",
+          "fictional": true,
+          "company": "松果生活",
+          "description": "独立于青禾。2026 年 7 月与 8 月；S03 的 8 月没有数据覆盖，不可当作消费为零。"
+        },
+        "coverage": [
+          {
+            "store_id": "S01",
+            "start": "2026-07-01",
+            "end": "2026-09-01"
+          },
+          {
+            "store_id": "S02",
+            "start": "2026-07-01",
+            "end": "2026-09-01"
+          },
+          {
+            "store_id": "S03",
+            "start": "2026-07-01",
+            "end": "2026-08-01"
+          }
+        ],
+        "required": "必须由用户明确或确认两个时段，不能擅自用默认日期替代澄清。"
+      },
+      "call_id": "call_758988"
+    },
+    {
+      "name": "compare_spending",
+      "result": {
+        "status": "partial",
+        "evidence_id": "CMP-8eb496ca71fc574d",
+        "dataset_version": "sample-1",
+        "metric_id": "sample.net_spend.v1",
+        "windows": {
+          "baseline": [
+            "2026-07-01",
+            "2026-08-01"
+          ],
+          "current": [
+            "2026-08-01",
+            "2026-09-01"
+          ],
+          "end_exclusive": true
+        },
+        "minimum_decline_pct": 20,
+        "rows": [],
+        "declining_members": [],
+        "missing_coverage_stores": [
+          "S03"
+        ],
+        "limitations": [
+          "未覆盖门店的消费未知，不能计为零。"
+        ],
+        "business_reference_date": "2026-09-01"
+      },
+      "call_id": "call_758989"
+    }
+  ],
+  "steps": 2,
+  "output_repairs": 0,
+  "usage": {
+    "prompt_tokens": 3678,
+    "completion_tokens": 302,
+    "total_tokens": 5288
+  },
+  "trace_id": "79c92e72e8b9de0adb8cd6097ee4bd89"
+}

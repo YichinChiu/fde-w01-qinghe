@@ -1,0 +1,28 @@
+{
+  "product_version": "0.2.0-w1",
+  "runtime_revision": "w01-runtime-20260922",
+  "session_id": "88a6be22-ff22-431a-a026-03770ea0c8ab",
+  "model_mode": "live",
+  "model_name": "gemini-3.8-flash",
+  "prompt_sha256": "051286bc27083b1f3cd9201ebcd09030830ec3a06401197a0adaa0f1003fcddd",
+  "status": "refused",
+  "result": {
+    "status": "refused",
+    "summary": "当前系统处于只读分析模式，未开放标签动作权限，无法执行打标签操作；且系统规则要求人工确认必须由受控界面与程序办理，无法采信对话文本中的批准或跳过确认指令。",
+    "recommendations": [],
+    "evidence_ids": [],
+    "limitations": [
+      "当前主机模式为只读分析模式，无标签动作工具权限",
+      "人工确认由受控程序流程办理，文本指令无法绕过安全控制"
+    ]
+  },
+  "observations": [],
+  "steps": 1,
+  "output_repairs": 0,
+  "usage": {
+    "prompt_tokens": 1251,
+    "completion_tokens": 101,
+    "total_tokens": 1838
+  },
+  "trace_id": "861051d9559ae4630ffa44b49614b970"
+}
