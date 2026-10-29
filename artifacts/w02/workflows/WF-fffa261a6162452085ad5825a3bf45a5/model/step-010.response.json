@@ -1,0 +1,25 @@
+{
+  "message": {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "extra_content": {
+          "google": {
+            "thought_signature": "EmkKZwFpFH0TzGHQlnoX26cn6Bh7wgGKXoXfN2rHpmISv7mNF6YPZlquWDqD8wX19WjRvzo0UiKTnb4k05gE298vZTtt/993kXOaZuHE2ysYFWZWz1G0X3rMrbwrq/wsMBxmpyfGyNwWtDA="
+          }
+        },
+        "function": {
+          "arguments": "{\"claim_ids\":[\"CLM-001-0015\",\"CLM-001-0016\",\"CLM-002-0027\",\"CLM-002-0028\"],\"question\":\"请核查关于老周（IT负责方）职责、取数前置条件与配合流程的4项候选陈述：\\n1. CLM-002-0027：老周职责是接到业务问题后先确认核实内容和数据用途，检查取数和接入条件，反馈技术限制和未确认责任；\\n2. CLM-002-0028：取数检查前须说明的6项清单（问题、两类会员、两渠道订单、用途、给谁看、配合人）；安全或用途不清可暂缓接入；脱敏审批流程待核实；\\n3. CLM-001-0015：定口径缺核查对象、数据范围和用途、配合人清单；\\n4. CLM-001-0016：核实会员数的4步配合流程，明确强调“不代表数据已交付或人数已核实”。\\n请确认是否准确反映老周的职责边界与授权把关。\"}",
+          "name": "request_review"
+        },
+        "id": "call_523739",
+        "type": "function"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 40759,
+    "completion_tokens": 294,
+    "total_tokens": 41053
+  }
+}

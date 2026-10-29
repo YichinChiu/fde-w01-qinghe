@@ -1,0 +1,25 @@
+{
+  "message": {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "extra_content": {
+          "google": {
+            "thought_signature": "EmkKZwFpFH0Tosyb44h7DLq9npgkTOSRtBiQz0I4CT9LAtPLtd3+2uU93RivkYEZ/2M4pt1RhJLEV477gQ7jT2OHM/7xqRwonVGah+kAtKJSoAFT+7UjVlJlF10vtmUuqqqz270Fuuic9iQ="
+          }
+        },
+        "function": {
+          "arguments": "{\"question\":\"请核查老周与小林关于旧项目问题及运营费力环节的4项候选陈述：\\n1. CLM-002-0029：老周从系统角度看旧项目问题是需求一直在变，接通程度待查；\\n2. CLM-002-0030：老周举例（需求变导致取数重做）仅说明协作方式，非事故亦非项目失败归因；\\n3. CLM-003-0037：小林称旧项目最后没人用、界面让操作多了三步，具体页面待查旧材料；\\n4. CLM-003-0043：小林最费事的是整理名单、核对信息、跟进度，未量化时间，非复购下滑归因。\\n请确认是否准确反映原文及限制。\",\"claim_ids\":[\"CLM-002-0029\",\"CLM-002-0030\",\"CLM-003-0037\",\"CLM-003-0043\"]}",
+          "name": "request_review"
+        },
+        "id": "call_511865",
+        "type": "function"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 61346,
+    "completion_tokens": 263,
+    "total_tokens": 61609
+  }
+}

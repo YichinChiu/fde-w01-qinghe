@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"conflicts\": []\n}"
+  },
+  "usage": {
+    "prompt_tokens": 13746,
+    "completion_tokens": 10,
+    "total_tokens": 17284
+  }
+}

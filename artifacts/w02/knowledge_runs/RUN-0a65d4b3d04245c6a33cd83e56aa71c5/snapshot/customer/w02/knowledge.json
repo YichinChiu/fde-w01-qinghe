@@ -1,0 +1,9 @@
+{
+  "version": "w02-natural-0.1.0",
+  "scope_id": "qinghe",
+  "business_model": "docs/w02/business_model.md",
+  "extraction_run": "artifacts/w02/runs/RUN-029eda4071794e1cba163b99a4297523/run.json",
+  "prompt": "customer/w02/knowledge_prompt.txt",
+  "profile": "json-object",
+  "max_context_chars": 96000
+}

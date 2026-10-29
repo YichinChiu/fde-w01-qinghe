@@ -1,0 +1,25 @@
+{
+  "message": {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "extra_content": {
+          "google": {
+            "thought_signature": "EmkKZwFpFH0T4pxXcA9ZgXsf5CHPmR5JKYVI9wp5+/rFE/LlHM4YzmJhQS84eUZ40IN5SF1GLF7tRS8NUIucnrNjRTAwu/r0Dn5hDsmvCZizDkkNHuJYf4/Kv0G1LpXM9T4KkptOQ9H2x/w="
+          }
+        },
+        "function": {
+          "arguments": "{\"claim_ids\":[\"CLM-001-0005\",\"CLM-001-0006\",\"CLM-001-0007\",\"CLM-001-0008\"],\"question\":\"请核查陈姐（ROLE-CHEN）关于门店职责与活动交接的4项候选陈述：\\n1. CLM-001-0005：门店会员职责主要是活动权益说明、会员咨询、配合注册和执行，问题反馈运营；\\n2. CLM-001-0006：接活动后核对会员、参与门店、任务安排同事，执行中收集反馈与运营核对；\\n3. CLM-001-0007：会员持线上活动咨询时先核对适用范围，不能默认所有门店都能执行；\\n4. CLM-001-0008：总部是否随活动下发名单回访/邀约，陈姐不掌握，转介问老周或小林。\\n请确认是否准确反映原文及转介关系。\"}",
+          "name": "request_review"
+        },
+        "id": "call_582449",
+        "type": "function"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 34231,
+    "completion_tokens": 256,
+    "total_tokens": 34487
+  }
+}

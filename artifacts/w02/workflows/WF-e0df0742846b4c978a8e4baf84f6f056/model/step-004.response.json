@@ -1,0 +1,25 @@
+{
+  "message": {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "extra_content": {
+          "google": {
+            "thought_signature": "EvsBCvgBAWkUfRPNYkyyycIKRLD/Gidu0bJ9NvKQ34OSvr4tL0VaTRJDO7rZtYGZDLvaR20DwKny7T/S8pTM7dqv2aYb1CO4weuzaj+1tICnpmkoGf9B2ByySFixyULXsNCKMMWlFXrJMujn6BVvtefnyBHCyaNwtc2xmibEQHAXzqFY2F6A4x36NvuG3A5HLdKIutCBnrNCFqw0f8Ny0uzw87l62dtHWIgY3UARS/JHEQFdmH6G6cQgl+x4n863JPk2B09/11TBU2O/Vq5PWaz/N/mTHFUDv3YHfOnGVNECtcsrkpkkOthgWbdzx/udcXaukdLv6VE/PJrhf2Y="
+          }
+        },
+        "function": {
+          "arguments": "{\"question\":\"请核查第一组候选（对象划分共识与渠道区分）：陈姐(CLM-001-0009)、老周(CLM-001-0017, CLM-002-0025)、小林(CLM-003-0034)均明确强调“会员分付费会员卡和免费注册会员两类，订单分线上和门店渠道”，谈论数据和运营时不能混淆。但具体两类会员和两类渠道订单存放在哪些系统、由谁维护，周工表示尚需查记录确认。请确认是否采用这组关于业务对象划分的共识与系统归属未知的陈述？\",\"claim_ids\":[\"CLM-001-0009\",\"CLM-001-0017\",\"CLM-002-0025\",\"CLM-003-0034\"]}",
+          "name": "request_review"
+        },
+        "id": "call_556642",
+        "type": "function"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 28414,
+    "completion_tokens": 223,
+    "total_tokens": 28705
+  }
+}

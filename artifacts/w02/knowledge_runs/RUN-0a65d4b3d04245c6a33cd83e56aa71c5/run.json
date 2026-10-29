@@ -1,0 +1,91 @@
+{
+  "contract_version": "w02-natural-0.1.0",
+  "run_id": "RUN-0a65d4b3d04245c6a33cd83e56aa71c5",
+  "stage": "context",
+  "scope_id": "qinghe",
+  "mode": "live",
+  "status": "succeeded",
+  "model": {
+    "provider": "generativelanguage.googleapis.com",
+    "name": "gemini-3.8-flash",
+    "adapter_version": "w02-natural-0.1.0"
+  },
+  "implementation": [
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/implementation/platform/fde_product/natural_knowledge.py",
+      "sha256": "35c51ae51efeac68a4c35420d0ae0b79c70a4af85edff84353a4413e4e8dcd40"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/implementation/platform/fde_product/knowledge_io.py",
+      "sha256": "bd317c47e8f8fb0ebfaebab2c4babc6b70f0479301249a1b2ca5e435811b051c"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/implementation/platform/fde_product/interview_extraction.py",
+      "sha256": "4158dd8cf48092fbd515c562e326d403e60d15feb76511dd04b9991c77de6e53"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/implementation/platform/fde_product/models.py",
+      "sha256": "17cac712394ede304b9d57f2c3adcf4cb5739bbd6264880efb9603bc5dacb223"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/implementation/platform/fde_product/agent.py",
+      "sha256": "2d3b397b3b54a0d9555c82777e5785e334d0fd0fa6d248f92211a4a1c87e9383"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/implementation/platform/fde_product/observability.py",
+      "sha256": "a7bfdbb457c5c069d78d6e296bb5ecfaff4fe4aafe25147cca9c8e85df1e7cd5"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/implementation/tools/w02_knowledge.py",
+      "sha256": "791375c450ba87926509812d220fb0d66a96c707b677a7474d9ee5f85a156a80"
+    }
+  ],
+  "configuration": [
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/source_manifest.json",
+      "sha256": "40d6ac5192cce18b7e7964296e2dde57e3d70249efd833451803dab00d734a07"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/settings.json",
+      "sha256": "f8a34a5b44f6ecf5be2d534af9ff08e051432f788bd1eac442096706fcd4fd39"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/snapshot/docs/w02/business_model.md",
+      "sha256": "07ad750ab04c32a23973b8c8cbcb1385001564a46ed7ff69c61211e7cb422162"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/snapshot/artifacts/w02/runs/RUN-029eda4071794e1cba163b99a4297523/run.json",
+      "sha256": "7345cee502ccf43fc6bb6f48c0165e4d897497885cb17da2f3c1748c03845210"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/request.json",
+      "sha256": "5e8f24ced214bbe163f0d25ed77900ccefdeb1faaa1f12456cf07ff49eb49b4a"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/attempts.json",
+      "sha256": "3aa108e0694fd4a89c27c98697a5df570c9170dbcd186a00bb8692f9ca5ac7fb"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/response.json",
+      "sha256": "9092e805219fd873592115b42b3679df84fc7d50357389140b60e22929fcc4c1"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/answer.json",
+      "sha256": "5d450cce6429a234f54d8dc3a73a5c937f2babe40312406a8e18312192c1759b"
+    }
+  ],
+  "semantic_review": "needs_review",
+  "error": null,
+  "request": {
+    "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/request.json",
+    "sha256": "5e8f24ced214bbe163f0d25ed77900ccefdeb1faaa1f12456cf07ff49eb49b4a"
+  },
+  "response": {
+    "path": "artifacts/w02/knowledge_runs/RUN-0a65d4b3d04245c6a33cd83e56aa71c5/response.json",
+    "sha256": "9092e805219fd873592115b42b3679df84fc7d50357389140b60e22929fcc4c1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "message": {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "extra_content": {
+          "google": {
+            "thought_signature": "EmkKZwFpFH0T5qSDrFYVso+Xn3lKsMJx81NuNf0NNZN0rBjSEwYW4+Nwtt7HRwkdvlBQVsO8NR1z80CDvHva3xujR2VitjbeFEqQv5H+Nbre26UPHs9If7jz7eiIX+f4IKk9WUQrs7Po4Kg="
+          }
+        },
+        "function": {
+          "arguments": "{\"question\":\"请核查陈姐与老周关于复购、旧项目认知及“项目组”未知的4项候选陈述：\\n1. CLM-001-0011：陈姐感性感觉回头客有变化，但无统计数据，原因不下结论；\\n2. CLM-001-0012：陈姐不掌握旧营销项目在门店的使用细节；\\n3. CLM-001-0013：陈姐表示复购率连续四季下滑说法需项目组核实；\\n4. CLM-001-0014：老周表示不掌握“项目组”具体团队/人员及依据。\\n请确认是否反映原文客观陈述。\",\"claim_ids\":[\"CLM-001-0011\",\"CLM-001-0012\",\"CLM-001-0013\",\"CLM-001-0014\"]}",
+          "name": "request_review"
+        },
+        "id": "call_513401",
+        "type": "function"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 53096,
+    "completion_tokens": 232,
+    "total_tokens": 53328
+  }
+}

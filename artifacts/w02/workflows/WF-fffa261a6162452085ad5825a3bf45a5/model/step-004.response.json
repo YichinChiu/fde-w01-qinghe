@@ -1,0 +1,25 @@
+{
+  "message": {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "extra_content": {
+          "google": {
+            "thought_signature": "EmkKZwFpFH0T9qvpXcjrI23OizTRhZMYALUibbRcm8uzET/tKcrrEx34ywSvc7bCqt81ysz8cj6RkDGmkH6b5rR58v3v586P686raV/KUjPLI/OyzEat/b71G/lWEiLbV75SkatDjqLxAa8="
+          }
+        },
+        "function": {
+          "arguments": "{\"claim_ids\":[\"CLM-001-0001\",\"CLM-001-0002\",\"CLM-001-0003\",\"CLM-001-0004\"],\"question\":\"请核查沈总（ROLE-SHEN）关于管理决策与授权边界的4项候选陈述：\\n1. CLM-001-0001：沈总不替老周和小林认定“项目组”，若双方对不上由沈总召集相关人定口径与牵头方；\\n2. CLM-001-0002：“80万”是按“活跃会员”提出的说法，无已确认统计依据，需老周（系统）和小林（运营）核对；\\n3. CLM-001-0003：第一阶段是否覆盖门店及下发名单尚未定，属方案讨论范围；\\n4. CLM-001-0004：下次试点讨论要求（5要素），强调方案仅供讨论不代表已获批。\\n请确认是否准确反映原文、有无过度推断或遗漏限定条件。\"}",
+          "name": "request_review"
+        },
+        "id": "call_511728",
+        "type": "function"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 28967,
+    "completion_tokens": 275,
+    "total_tokens": 29242
+  }
+}

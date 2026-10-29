@@ -1,0 +1,91 @@
+{
+  "contract_version": "w02-natural-0.1.0",
+  "run_id": "RUN-5e856c4eb2f8414da2a5cdbd2556f129",
+  "stage": "context",
+  "scope_id": "qinghe",
+  "mode": "live",
+  "status": "succeeded",
+  "model": {
+    "provider": "generativelanguage.googleapis.com",
+    "name": "gemini-3.8-flash",
+    "adapter_version": "w02-natural-0.1.0"
+  },
+  "implementation": [
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/implementation/platform/fde_product/natural_knowledge.py",
+      "sha256": "35c51ae51efeac68a4c35420d0ae0b79c70a4af85edff84353a4413e4e8dcd40"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/implementation/platform/fde_product/knowledge_io.py",
+      "sha256": "bd317c47e8f8fb0ebfaebab2c4babc6b70f0479301249a1b2ca5e435811b051c"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/implementation/platform/fde_product/interview_extraction.py",
+      "sha256": "4158dd8cf48092fbd515c562e326d403e60d15feb76511dd04b9991c77de6e53"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/implementation/platform/fde_product/models.py",
+      "sha256": "17cac712394ede304b9d57f2c3adcf4cb5739bbd6264880efb9603bc5dacb223"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/implementation/platform/fde_product/agent.py",
+      "sha256": "2d3b397b3b54a0d9555c82777e5785e334d0fd0fa6d248f92211a4a1c87e9383"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/implementation/platform/fde_product/observability.py",
+      "sha256": "a7bfdbb457c5c069d78d6e296bb5ecfaff4fe4aafe25147cca9c8e85df1e7cd5"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/implementation/tools/w02_knowledge.py",
+      "sha256": "791375c450ba87926509812d220fb0d66a96c707b677a7474d9ee5f85a156a80"
+    }
+  ],
+  "configuration": [
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/source_manifest.json",
+      "sha256": "5722417f6578507ea13e8fe556434f1d0de08aa8de6c35934414d2c2c265d7ff"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/settings.json",
+      "sha256": "d6978eb0b3ed133e3beef3b1930b93975c5e6e5395ec4ed37502a5b1a589d34f"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/snapshot/docs/w02/business_model.md",
+      "sha256": "ce248cdba476f0eee89f74d6516f7404d4ecc34df471e217ba0560bd5ddae99f"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/snapshot/artifacts/w02/runs/RUN-029eda4071794e1cba163b99a4297523/run.json",
+      "sha256": "7345cee502ccf43fc6bb6f48c0165e4d897497885cb17da2f3c1748c03845210"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/request.json",
+      "sha256": "5e8f24ced214bbe163f0d25ed77900ccefdeb1faaa1f12456cf07ff49eb49b4a"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/attempts.json",
+      "sha256": "2c6242325c7e6c809c0df875a33b7d89cdf4ad01e92ff57c73b0b7c1be63f92e"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/response.json",
+      "sha256": "1c27f0991e24501e92b09f3e1dcd9cf68a0729f9cb328a4553f1719b515b19d2"
+    },
+    {
+      "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/answer.json",
+      "sha256": "9350ebadf322ab5395dec97a26a2e984681d5d14f804715b8ceaa7b66948fbb7"
+    }
+  ],
+  "semantic_review": "needs_review",
+  "error": null,
+  "request": {
+    "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/request.json",
+    "sha256": "5e8f24ced214bbe163f0d25ed77900ccefdeb1faaa1f12456cf07ff49eb49b4a"
+  },
+  "response": {
+    "path": "artifacts/w02/knowledge_runs/RUN-5e856c4eb2f8414da2a5cdbd2556f129/response.json",
+    "sha256": "1c27f0991e24501e92b09f3e1dcd9cf68a0729f9cb328a4553f1719b515b19d2"
+  }
+}

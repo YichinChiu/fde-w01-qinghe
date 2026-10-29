@@ -1,0 +1,25 @@
+{
+  "message": {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "extra_content": {
+          "google": {
+            "thought_signature": "EpIBCo8BAWkUfRMgaNOXsS278VXMPxor3DqYYwotPQlX7u/QW59M4HgyCdpzFa2lgrHZ7PiMpWT5To5t1vyDAxXVllXEi6TIRn7A5R2zpbG5vlSuCCxIvFP5ibTLAGH+ZKx5+gx06sry2J21HIhXW0AdOYXs+AXxowz2HUiwJmPWe3cYeDU1Fcv6lsxt9+BYTLteAIk="
+          }
+        },
+        "function": {
+          "arguments": "{\"question\":\"请核查第三组候选（试点范围、授权边界与接入前提）：\\\\n1. CLM-001-0003（沈总）：第一阶段是否覆盖门店、名单是否下发到门店目前未定，方案拿出来再议。\\\\n2. CLM-001-0004（沈总）：讨论试点方案需包含验证问题、覆盖范围、已有依据和待核项、配合人员、观察阶段结果，方案仅供讨论不代表获批。\\\\n3. CLM-002-0027（老周）：检查取数条件前须明确问题、会员/渠道范围、用途、受众与配合人；脱敏样本审批手续未知；安全或用途不清老周可要求暂缓接入。\\\\n4. CLM-003-0039（小林）：建议需说明依据；人群与执行方案须业务人员确认，未授权助手自动发券、联系会员或修改记录。\\\\n请确认是否按“试点边界明确为仅出名单与建议、不自动执行、老周有暂缓接入权、第一阶段暂不覆盖门店”采用这组候选？\",\"claim_ids\":[\"CLM-001-0003\",\"CLM-001-0004\",\"CLM-002-0027\",\"CLM-003-0039\"]}",
+          "name": "request_review"
+        },
+        "id": "call_503649",
+        "type": "function"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 37718,
+    "completion_tokens": 324,
+    "total_tokens": 38051
+  }
+}

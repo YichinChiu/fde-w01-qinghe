@@ -1,0 +1,25 @@
+{
+  "message": {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "extra_content": {
+          "google": {
+            "thought_signature": "EmkKZwFpFH0TFf1saEcY6w5967/DtjxVrGvuYvmLY3hHAP8WhCe58AXtxeOKZuqFuxD3Mxl/2Wn1z0/Ulz6OwrZpPNeqY5yOoH5o5jAQvFjt2QD6ytj2pD/GdTdWZPr41RxRauy/OX3jPQA="
+          }
+        },
+        "function": {
+          "arguments": "{\"question\":\"请核查关于“会员类型划分”以及“门店收银识别与订单归属”的转介闭环：\\n1. CLM-001-0010、CLM-001-0017：陈姐与老周均确认会员分为“付费会员卡”和“免费注册会员”两类；\\n2. CLM-001-0009、CLM-002-0021：陈姐表示收银识别及未报身份归属不掌握，转介问老周或小林；老周亦表示不掌握，转介问陈姐。形成了相互转介的闭环，导致该业务规则目前完全未知。\\n请确认这一事实判断及在模型中的记录方式。\",\"claim_ids\":[\"CLM-001-0009\",\"CLM-001-0010\",\"CLM-001-0017\",\"CLM-002-0021\"]}",
+          "name": "request_review"
+        },
+        "id": "call_723727",
+        "type": "function"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 37791,
+    "completion_tokens": 238,
+    "total_tokens": 38029
+  }
+}

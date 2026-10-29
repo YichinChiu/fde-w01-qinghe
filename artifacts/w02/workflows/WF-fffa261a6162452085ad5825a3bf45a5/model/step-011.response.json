@@ -1,0 +1,25 @@
+{
+  "message": {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "extra_content": {
+          "google": {
+            "thought_signature": "EmkKZwFpFH0TfBHq5V+QoJEJ3JBDkrNw9/QkDBYawrRgK27huVf9yqdIzbXvDZwn9LqxVcEyr8MlMncgUj4MoUwS04lFjlpSElb0CkcrN5q0RfDI/xQQeqV9yKY89EQ875mYI8GVxrxXRIM="
+          }
+        },
+        "function": {
+          "arguments": "{\"claim_ids\":[\"CLM-002-0022\",\"CLM-002-0023\",\"CLM-003-0044\",\"CLM-003-0046\"]}",
+          "name": "show_evidence"
+        },
+        "id": "call_606122",
+        "type": "function"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 41819,
+    "completion_tokens": 66,
+    "total_tokens": 41885
+  }
+}
