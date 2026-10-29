@@ -1,0 +1,26 @@
+{
+  "version": "w02-extractor-0.1.0",
+  "scope_id": "qinghe",
+  "sources": [
+    "artifacts/w02/workflows/WF-88061bbaedbd4ad59158a2a35fc54313/sources/0.json",
+    "artifacts/w02/workflows/WF-88061bbaedbd4ad59158a2a35fc54313/sources/1.json",
+    "artifacts/w02/workflows/WF-88061bbaedbd4ad59158a2a35fc54313/sources/2.json",
+    "artifacts/w02/workflows/WF-88061bbaedbd4ad59158a2a35fc54313/sources/3.json",
+    "artifacts/w02/workflows/WF-88061bbaedbd4ad59158a2a35fc54313/sources/4.json",
+    "artifacts/w02/workflows/WF-88061bbaedbd4ad59158a2a35fc54313/sources/5.json",
+    "artifacts/w02/workflows/WF-88061bbaedbd4ad59158a2a35fc54313/sources/6.json"
+  ],
+  "prompt": "artifacts/w02/workflows/WF-88061bbaedbd4ad59158a2a35fc54313/inputs/prompt.md",
+  "focus_questions": [
+    "会员、订单、门店、活动等业务对象怎样划分（如会员类型、订单渠道、活动适用范围）？各角色分别怎么说？",
+    "复购率、活跃会员、老会员、会员规模（80万）等口径：谁给出了什么说法、由谁负责确认、目前还缺什么？",
+    "各角色的实际职责、工作流程和交接（运营、门店、IT 之间），以及各自明确表示不掌握或不能替别人确认的内容。",
+    "第一阶段试点的范围、取数前提、授权边界（哪些动作未获授权）以及谁能决定或暂缓。",
+    "各角色对上一个智能营销项目问题的不同说法及其依据。",
+    "哪些问题被转介给其他角色？转介给谁？转介之间是否形成循环？"
+  ],
+  "batch_chars": 6000,
+  "max_batches": 24,
+  "reconcile_chars": 96000,
+  "profile": "json-object"
+}

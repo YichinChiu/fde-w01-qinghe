@@ -1,0 +1,9 @@
+{
+  "version": "w02-workflow-0.1.0",
+  "goal": "核实第一阶段“需要重点经营的会员”所需的业务认识：对象划分（会员类型、订单渠道、活动适用范围）、关键口径（复购率、活跃会员、会员规模）的定义与负责方、各角色职责与交接、试点范围与授权边界；保留分歧、未知和转介关系，形成首版业务模型。",
+  "extraction_config": "customer/w02/extraction.json",
+  "skill": "customer/w02/skills/extract-business/SKILL.md",
+  "business_model": "docs/w02/business_model.md",
+  "notes": "docs/w02/interview_notes.md",
+  "max_steps": 24
+}

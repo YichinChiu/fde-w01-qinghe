@@ -1,0 +1,25 @@
+{
+  "message": {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "extra_content": {
+          "google": {
+            "thought_signature": "EvwBCvkBAWkUfRONxBaQTGgwh0+8nKsD8riFoyTdihsRWW6FVt+sdUrtXYTpjqGJ6aOl+qWxKqQX9CIoGphMz9MgZNvx+ZRMxOt2Ghx6oLIku1uzftJiPvdUVoe+TdX+8bBkCG2YCg4O4LmGEpa29AGY91kkOizbPsDo1caoSmGv0yDlyMdPWgZvC0+Opm7de2aMj7mHj2BEIJkkzv6v9SdM0bzba7k14ZmDAQGZmDQ63PpVVd/zhRFC1b40L0WPoFDqh70XaXy0Xqtmlyld0J8bsVd0Z9vIlO6zHrVL8N4edxysUA0mJjEam6P4TJtA2IOyFOosSKnlkawTNmd0"
+          }
+        },
+        "function": {
+          "arguments": "{\"question\":\"请核查关于“第一阶段试点范围、授权边界、数据条件与职责交接”的一组候选（CLM-001-0003、CLM-001-0004、CLM-002-0026、CLM-003-0040）：\\n1. 试点范围与授权边界：沈总明确第一阶段是否覆盖门店、是否下发名单未定，须方案拿出来再议，方案不表示试点已获批；小林明确人群和执行方案须由业务人员确认，未授权助手自动发券、联系会员或修改记录；\\n2. 数据接入与审批：老周强调取数前业务方必须讲清核实问题、会员与订单范围、用途、给谁看和配合人，安全要求或用途不清可要求暂缓接入；脱敏样本审批归属与流程未定，老周不代批；\\n3. 门店与运营日常交接：陈姐说明门店职责为让同事了解活动与权益、接待咨询、配合注册和执行，问题反馈运营；活动下发先核对会员、参与门店与执行内容；\\n4. 对应在业务模型中：系统候选动作仅限定为“输出带依据的候选名单与运营建议供小林确认”，明确排除“自动发券、自动触达、回写修改系统记录”，且取数受老周的五项前置条件约束。\\n请确认这组候选对于试点边界与职责约定的提取是否准确？\",\"claim_ids\":[\"CLM-001-0003\",\"CLM-001-0004\",\"CLM-002-0026\",\"CLM-003-0040\"]}",
+          "name": "request_review"
+        },
+        "id": "call_521366",
+        "type": "function"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 37423,
+    "completion_tokens": 400,
+    "total_tokens": 37858
+  }
+}

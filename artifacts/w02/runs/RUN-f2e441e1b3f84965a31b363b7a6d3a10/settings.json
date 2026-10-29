@@ -1,0 +1,41 @@
+{
+  "config": {
+    "version": "w02-extractor-0.1.0",
+    "scope_id": "qinghe",
+    "sources": [
+      "artifacts/w02/sources/W2-interview-1306ef7c-374d-5efd-a212-5339f6df082a-transcript.json",
+      "artifacts/w02/sources/W2-interview-180ee19f-0a0c-50f9-99fc-01574ea5ac4f-transcript.json",
+      "artifacts/w02/sources/W2-interview-349ce190-8739-5903-b89f-1a5eab785044-transcript.json",
+      "artifacts/w02/sources/W2-interview-6b913d0b-4bdb-5fcd-9642-e1b4c5d19fab-transcript.json",
+      "artifacts/w02/sources/W2-interview-6c5eadd7-76bc-5b78-9deb-a2591823f77f-transcript.json",
+      "artifacts/w02/sources/W2-interview-d432237e-bdc5-5e12-b730-59c765e2175f-transcript.json",
+      "artifacts/w02/sources/W2-interview-ef9749b3-a101-5c42-939d-66ec3919fe8a-transcript.json"
+    ],
+    "prompt": "customer/w02/extraction_prompt.txt",
+    "focus_questions": [
+      "会员、订单、门店、活动等业务对象怎样划分（如会员类型、订单渠道、活动适用范围）？各角色分别怎么说？",
+      "复购率、活跃会员、老会员、会员规模（80万）等口径：谁给出了什么说法、由谁负责确认、目前还缺什么？",
+      "各角色的实际职责、工作流程和交接（运营、门店、IT 之间），以及各自明确表示不掌握或不能替别人确认的内容。",
+      "第一阶段试点的范围、取数前提、授权边界（哪些动作未获授权）以及谁能决定或暂缓。",
+      "各角色对上一个智能营销项目问题的不同说法及其依据。",
+      "哪些问题被转介给其他角色？转介给谁？转介之间是否形成循环？"
+    ],
+    "batch_chars": 6000,
+    "max_batches": 24,
+    "reconcile_chars": 96000,
+    "profile": "json-object"
+  },
+  "adapter": "w02-extractor-0.1.0",
+  "timeout_seconds": 180.0,
+  "model_policy": {
+    "gateway_cache_bypass": true,
+    "wire_format": "gateway-extra-body-v1",
+    "request_profile": "json-object",
+    "max_tokens": 8192,
+    "retry_max_tokens": 16384,
+    "timeout": 180.0,
+    "retry_timeout": 180.0,
+    "token_limit_field": "max_tokens",
+    "extraction_thinking": "enabled"
+  }
+}

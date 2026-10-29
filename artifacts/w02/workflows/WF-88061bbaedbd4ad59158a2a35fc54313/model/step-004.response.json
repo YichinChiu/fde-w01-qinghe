@@ -1,0 +1,25 @@
+{
+  "message": {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "extra_content": {
+          "google": {
+            "thought_signature": "EswCCskCAWkUfROV2rD4uWUDhvnKsuFUPqvIqpya6IzfbOG3ePoQniq0hHcoiQF7SdojidCtMiJWn5Rul7gmPGoHURQ57o8y+3cSpkYzbN505nDVHpWeBdhAmYjINk5asAgRdAA8fxdJDT/ZBRKDWMve5Evwlzbf65+aJDzO1BLe2JUx+vQQiyXLvIe+d7bN/3o2HhHs7LqF6g5InXGeJUhc4C/8mmVqKf1hqVe7PL3aYeIE7YCSfGultv02AiVcl0mF+TtkP2boZZ6RNOHl4lHHjcZ2Ste/2KCeIxgUjBp7YjddrlHbIHHOEvjWEIQkzKnGYXC5PV0ZPpmmT6+EYFCDrlrDIM+6iwUcMR9CFwhrTrQhu9OF9yaN2Wlg09nPA6o8d2Flow3O7AS2Dved0A1vPPiWi4c6jOT+LpddI23E4jJaPqHJ3K4IUb8msLk="
+          }
+        },
+        "function": {
+          "arguments": "{\"question\":\"请核查关于“会员与订单对象划分及重点经营会员理解”的一组候选（CLM-001-0007、CLM-002-0022、CLM-003-0035、CLM-003-0038）：\\n1. 陈姐、老周、小林三方均确认青禾会员分为“付费会员卡”与“免费注册会员”两类，订单分为“线上”与“门店”两类，且强调不能混在一起；\\n2. 小林提出第一阶段“重点经营的会员”两类都要看但必须分开看，不能合成一批，具体哪类优先需看核实后的数量和复购数据；\\n3. 陈姐指出对收银台具体识别方式及未报身份是否记入不掌握，转介老周或小林（后续老周亦表示不掌握该细节并转介陈姐，构成收银识别细节的循环未知）。\\n请确认这组候选对于建立首版业务模型的对象划分与未知项是否准确完备，是否有需要修正或补充的意见？\",\"claim_ids\":[\"CLM-001-0007\",\"CLM-002-0022\",\"CLM-003-0035\",\"CLM-003-0038\"]}",
+          "name": "request_review"
+        },
+        "id": "call_516413",
+        "type": "function"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 27866,
+    "completion_tokens": 313,
+    "total_tokens": 28231
+  }
+}

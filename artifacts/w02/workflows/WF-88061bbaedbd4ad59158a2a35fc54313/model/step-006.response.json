@@ -1,0 +1,25 @@
+{
+  "message": {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "extra_content": {
+          "google": {
+            "thought_signature": "EpYCCpMCAWkUfRNOYYuIT2gkK8h8ilZ0L3raJcni/h2W4E3n6EYcfgN4pPeT9xmoiqQDW33qrrk6raAGt4trmjBQdRyPdL6wlTvG4pN5cail+bojnokXK0a4Z85RMZdkCL7VqXWVKm1zkVPwpsUFGfRDemzTx9nrncDpsUBNeto3OB/dZnIWAQ58RAHoEgQupeNXIo7q6lRfDvHlUmrPztJd/tS1Ev7BNK33hSQjJaTW7cQw87qRmX7pjICjNZPOOSlUpjy+J5MS1EyLLBgy656fYNHrctmLQ6nCBqKdk1yR/z3sS8f+dU405Z237MocytxTviqZUMm962jHL5urd+K82Kitzq6vSNYbf4sbrzDD/xX2nfba8dg="
+          }
+        },
+        "function": {
+          "arguments": "{\"question\":\"请核查关于“关键口径（复购率、80万活跃会员）及‘项目组’牵头方转介”的一组候选（CLM-001-0001、CLM-001-0002、CLM-001-0011、CLM-002-0017）：\\n1. “项目组”具体是谁：沈总表示确认不了也不代认，老周和小林均表示不掌握具体团队或名单；沈总明确若老周和小林对不上则由沈总召集定口径和牵头方；老周指出定口径缺核查对象、数据范围和用途、配合人清单；小林指出缺牵头确认团队/人和统计核实；\\n2. 80万活跃会员：沈总是按“活跃会员”提出的说法，具体指付费卡、免费会员还是两类合计及出处统计目前无确认依据，需系统找老周、运营找小林核实（小林后续亦表示无确认统计，老周表示可说明用途后配合核对范围和统计说明）；\\n3. 关键转介关系：复购率口径从沈总→老周/小林，小林/老周→项目组，形成“虚构/待定牵头方”的未闭环转介，沈总保留终局召集拍板权。\\n请确认这组候选对于业务模型中的口径定义、转介链条及待定事项的表述是否准确？\",\"claim_ids\":[\"CLM-001-0001\",\"CLM-001-0002\",\"CLM-001-0011\",\"CLM-002-0017\"]}",
+          "name": "request_review"
+        },
+        "id": "call_710302",
+        "type": "function"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 32365,
+    "completion_tokens": 406,
+    "total_tokens": 32819
+  }
+}
